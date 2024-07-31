@@ -68,4 +68,9 @@ class ScientificCalculator {
 
 }
 
-
+fun main() {
+    val calculator = ScientificCalculator()
+    val expression = "(454 + ( 34 / 2 ) ^ 3 ) + 5"
+    val result = calculator.evaluate(expression)
+    println(result)
+}
