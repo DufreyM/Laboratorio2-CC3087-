@@ -59,7 +59,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.CalculadoraKt">
+  <component name="RunManager" selected="Gradle.CalculadoraTest">
     <configuration name="CalculadoraTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -148,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.CalculadoraKt" />
         <item itemvalue="Gradle.CalculadoraTest" />
+        <item itemvalue="Kotlin.CalculadoraKt" />
         <item itemvalue="Gradle.CalculadoraTest.testEvaluarExpresionCompleja2" />
         <item itemvalue="Kotlin.CalculadoraKt (1)" />
         <item itemvalue="Gradle.CalculadoraTest.testEvaluarRaizCuadrada" />
@@ -172,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722398633695</updated>
-      <workItem from="1722398634748" duration="2737000" />
+      <workItem from="1722398634748" duration="3357000" />
     </task>
     <servers />
   </component>
