@@ -1,3 +1,14 @@
+/**
+ * Nombre del programa: Ejercicio 02
+ * Descripción: Creación de una calculadora cientifíca con la capacidad de resolver potencias y raices usando postfix. 
+ * Proyecto realizado para la clase de programación de plataformas móviles
+ * Autor: Leonardo Dufrey Mejía Mejía, Maria José Girón Isidro, Cristian Sebastián Tunchez. 
+ * Fecha de creación: 30 de julio de 2024
+ * Fecha de última modificación: 30 de julio de 2024
+ * Fuentes de información: [crédito a toda fuente de información que haya aportado al desarrollo del programa]
+ * HoodLab. (2022, May 11). Lets code a calculator app in Android Studio| InFix to post fix [Video]. YouTube. https://www.youtube.com/watch?v=vepeiRB31mU
+ */
+
 import java.util.Stack
 import kotlin.math.*
 
@@ -66,7 +77,7 @@ class ScientificCalculator {
         }
     }
     //Función para prioridad entre las operaciones
-    
+
     private fun hasPrecedence(op1: Char, op2: Char): Boolean {
         if (op2 == '(' || op2 == ')') return false
         if ((op1 == '*' || op1 == '/' || op1 == '^' || op1 == '√') && (op2 == '+' || op2 == '-')) return false
