@@ -4,49 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b298efc4-7f1a-4aeb-b2f0-fbc66f9360fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ScientificCalculator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/calculatorTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScientificCalculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ScientificCalculator.kt" afterDir="false" />
-    </list>
+    <list default="true" id="2462f0f6-a0cc-4037-99e4-6d7dad21befa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2jzSgYGLcAeQb1LWEc5nDktm8so" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2jzn9Rm0Emtclxhc5jUax29c6UQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.CalculatorTest (1).executor": "Run",
-    "JUnit.CalculatorTest.executor": "Debug",
-    "JUnit.ScientificCalculatorTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
+    "Gradle.Build Laboratorio-2-CC3087.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/maria/Documents/Documentos UVG/2024/Cuarto semestre/Programación de Plataformas Móviles/Laboratorio2-CC3087-",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,52 +47,24 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\sebas\\.gradle"
+    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maria\Documents\Documentos UVG\2024\Cuarto semestre\Programación de Plataformas Móviles\Laboratorio2-CC3087-\test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\maria\Documents\Documentos UVG\2024\Cuarto semestre\Programación de Plataformas Móviles\Laboratorio2-CC3087-\tests" />
-      <recent name="C:\Users\maria\Documents\Documentos UVG\2024\Cuarto semestre\Programación de Plataformas Móviles\Laboratorio2-CC3087-\test" />
-      <recent name="C:\Users\maria\Documents\Documentos UVG\2024\Cuarto semestre\Programación de Plataformas Móviles\Laboratorio2-CC3087-" />
-      <recent name="C:\Users\maria\Documents\Documentos UVG\2024\Cuarto semestre\Programación de Plataformas Móviles\Laboratorio2-CC3087-\src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="CalculatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Laboratorio2-CC3087-" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Laboratorio2-CC3087-" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScientificCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Laboratorio2-CC3087-" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ScientificCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager">
+    <configuration name="CalculadoraKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uvg.edu.gt.CalculadoraKt" />
+      <module name="Laboratorio-2-CC3087.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest (1)" />
-        <item itemvalue="JUnit.ScientificCalculatorTest" />
+        <item itemvalue="Kotlin.CalculadoraKt" />
       </list>
     </recent_temporary>
   </component>
@@ -116,13 +79,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b298efc4-7f1a-4aeb-b2f0-fbc66f9360fa" name="Changes" comment="" />
-      <created>1722388526996</created>
+      <changelist id="2462f0f6-a0cc-4037-99e4-6d7dad21befa" name="Changes" comment="" />
+      <created>1722398633695</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722388526996</updated>
-      <workItem from="1722388528390" duration="2571000" />
-      <workItem from="1722391437431" duration="66000" />
+      <updated>1722398633695</updated>
+      <workItem from="1722398634748" duration="1002000" />
     </task>
     <servers />
   </component>

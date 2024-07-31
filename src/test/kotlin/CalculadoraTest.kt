@@ -1,42 +1,42 @@
 import org.junit.Assert.*
 import org.junit.Test
 
-class CalculatorTest {
+class CalculadoraTest {
 
-    private val calculator = ScientificCalculator()
+    private val calculadora = ScientificCalculator()
 
     @Test
     fun testAddition() {
-        val result = calculator.evaluate("2 + 3")
+        val result = calculadora.evaluate("2 + 3")
         assertEquals(5.0, result, 0.0)
     }
 
     @Test
     fun testSubtraction() {
-        val result = calculator.evaluate("5 - 3")
+        val result = calculadora.evaluate("5 - 3")
         assertEquals(2.0, result, 0.0)
     }
 
     @Test
     fun testMultiplication() {
-        val result = calculator.evaluate("2 * 3")
+        val result = calculadora.evaluate("2 * 3")
         assertEquals(6.0, result, 0.0)
     }
 
     @Test
     fun testDivision() {
-        val result = calculator.evaluate("6 / 3")
+        val result = calculadora.evaluate("6 / 3")
         assertEquals(2.0, result, 0.0)
     }
 
     @Test(expected = UnsupportedOperationException::class)
     fun testDivisionByZero() {
-        calculator.evaluate("6 / 0")
+        calculadora.evaluate("6 / 0")
     }
 
     @Test
     fun testExponentiation() {
-        val result = calculator.evaluate("2 ^ 3")
+        val result = calculadora.evaluate("2 ^ 3")
         assertEquals(8.0, result, 0.0)
     }
 }
