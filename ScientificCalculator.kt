@@ -71,6 +71,10 @@ class ScientificCalculator {
 fun main() {
     val calculator = ScientificCalculator()
     val expression = "(454 + ( 34 / 2 ) ^ 3 ) + 5"
-    val result = calculator.evaluate(expression)
-    println(result)
+    try {
+        val result = calculator.evaluate(expression)
+        println("The result of the expression is: $result")
+    } catch (e: Exception) {
+        println("Error evaluating expression: ${e.message}")
+    }
 }
