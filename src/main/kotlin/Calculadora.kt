@@ -9,7 +9,7 @@ package uvg.edu.gt
 import java.util.Stack
 import kotlin.math.*
 
-class CalculadoraCientifica {
+class Calculadora {
 
     fun evaluar(expresion: String): Double {
         val tokens = expresion.replace(" ", "").toCharArray()
@@ -73,8 +73,8 @@ class CalculadoraCientifica {
 }
 
 fun main() {
-    val calculadora = CalculadoraCientifica()
-    val expresion = "(454 + ( 34 / 2 ) ^ 3 ) + 5"
+    val calculadora = Calculadora()
+    val expresion = "(454+(34/2)^3)+5"
     try {
         val resultado = calculadora.evaluar(expresion)
         println("El resultado de la expresión es: $resultado")
